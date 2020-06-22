@@ -1,0 +1,300 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #ecd5d9;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.logo-container,
+.nav-links {
+	display: center;
+}
+
+
+.logo-container {
+    display: center;
+    margin: 30px 0px 30px 0px
+}
+
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+ul{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li{
+    width: 200;
+    height: 34;
+    background-color:none;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.4s ease-in;
+}
+
+ul li a:hover{
+    background-color: rgba(182, 134, 142, 0.979) ;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.logo img{
+   float: center; 
+  
+} 
+.figcaption{
+    
+    margin: 50%;
+}
+
+.main{
+    max-width: 1200px;
+    margin-left: 35px;
+    
+}
+
+.main .fas{
+    margin-right: 6px;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+
+input{
+    height: 20px;
+    width: 210px;
+    border-radius: 50px;
+}
+
+
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.introduction {
+	flex: 1;
+}
+.intro-text h1 {
+	font-size: 80px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 18px;
+    color: black;
+    font-style: initial;
+}
+.cta {
+	padding: 50px 0px 0px 0px;
+}
+
+.cta-select {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+	width: 111px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 12px;
+	border: none;
+	color: black;
+	margin: 20px 0px 0px 20px;
+}
+.cta-add {
+    display: center;
+	background: rgba(182, 134, 142, 0.979);
+	width: 111px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 12px;
+	border: none;
+	color: black;
+	margin: 20px 0px 0px 20px;
+}
+
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+    height: 60vh;
+}
+.cover img {
+    height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.presentation {
+		flex-direction: column;
+	}
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text h1 {
+		font-size: 30px;
+	}
+	.intro-text p {
+		font-size: 18px;
+	}
+	.cta {
+		padding: 10px 0px 0px 0px;
+	}
+	.laptop-select {
+		bottom: 5%;
+		right: 50%;
+		width: 50%;
+		transform: translate(50%, 5%);
+	}
+	.cover img {
+		height: 80%;
+    }
+    
+
+}
+
+/* footer */
+
+.footer{
+    background:rgba(182, 134, 142, 0.979);
+    height: 300px;
+    width: auto; 
+    position: relative; 
+}
+
+.footer .footer-content{
+    height: 300px;
+    display: flex ;
+
+}
+
+.footer .footer-content .footer-section-subscribe{
+    flex: 1;
+    padding: 20px;
+
+}
+.footer .footer-content .footer-section-social{
+    flex: 2;
+    margin: 0px 1000px;
+    position: block; 
+  
+}
+
+.footer .footer-content .footer-section-subscribe form h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+    line-height: 35px;
+}
+.footer .footer-content .footer-section-subscribe img{
+    margin: 0px 5px;
+}
+.footer .footer-content .footer-section-subscribe form #email{
+
+    width: 250PX;
+    height: 25px;
+}
+.footer .footer-content .footer-section-subscribe form button {
+
+    width: 75PX;
+    margin: 10px 5px;
+    border-radius: 15px;
+    background-color: white;
+    height: 25px;
+    float: center;
+   
+}
+.footer .footer-content .footer-section-social a{
+
+    width: 105px;
+    height: 31px;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin: 10 px 5px;
+    text-align: left;
+    display: block;
+    border-radius: 10px;
+    font-size: 0.7cm;
+    color: black;
+    position: left;
+ 
+}
+.footer .footer-bottom{
+ font-size: 10px;
+    height: 50px;
+    text-align:center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
