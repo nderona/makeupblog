@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ecd5d9;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+}
+input {
+    height: 20px;
+    width: 210px;
+    border-radius: 50px;
+}
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.introduction {
+    flex: 1;
+}
+.intro-text h1 {
+    font-size: 80px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.intro-text p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-style: initial;
+}
+.cta {
+    padding: 50px 0px 0px 0px;
+}
+.cta-select {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 111px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+.cta-add {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 111px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+}
+.cover {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+.cover img {
+    height: 100%;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+    }
+
+    .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .intro-text p {
+        font-size: 18px;
+    }
+
+    .cta {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .laptop-select {
+        bottom: 5%;
+        right: 50%;
+        width: 50%;
+        transform: translate(50%, 5%);
+    }
+
+    .cover img {
+        height: 80%;
+    }
+}

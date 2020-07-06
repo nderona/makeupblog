@@ -5,15 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>NM Makeup</title>
-    <link rel="stylesheet" href="makeupblogphase1.css">
-    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
-
-<?php
-include 'topMenu.php';?>
-
 <body>
+    <?php
+    
+    include 'topMenu.php';
 
+?>
 <main>
     <section class="presentation">
         <div class="introduction">
@@ -29,39 +28,14 @@ include 'topMenu.php';?>
             </div>
         </div>
         <div class="cover">
-            <img src="images/coverphoto.png" alt="coverphoto.png" />
+            <img src="pictures/coverphoto.png" alt="coverphoto.png" />
         </div>
     </section>
 </main>
+<?php
+    
+    include 'footer.php';
 
-
-<footer>
-    <div class="footer">
-        <div class="footer-content">
-            <div class="footer-section-subscribe">
-
-               <form action="makeupblog.html" method="post">
-                    <h4>  Subscribe to our Newsletter</h4>
-                   <input type="email" placeholder=" Enter you email address" id="email">
-                   <button type="submit" id="btn">Subscribe</button>
-
-               </form>
-            </div>
-
-           <!-- <div class="footer-section-social">
-           <a href="#"><i class="fab fa-youtube"></i></a>
-           <a href="#"><i class="fab fa-facebook"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-snapchat"></i></a>
-            </div> --> 
-           
-        </div>
-   
-        <div class="footer-bottom">
-            &copy; NMmakeup.com | Designed by Marigona Kadriu & Nderona Kamberi
-        </div>
-    </div>
-</footer>
+?>
 
 </html>

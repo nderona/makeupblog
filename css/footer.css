@@ -1,0 +1,85 @@
+
+/* footer */
+
+footer{
+    background:rgba(182, 134, 142, 0.979);
+    height: 300px;
+    width: auto;  
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.footer-content{
+    display: flex;
+    height: 300px;
+    width: 90%;
+}
+.subscribe{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 100px;
+}
+.subscribe #email{
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: black;
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+.subscribe button{
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: white;
+    width: 100px;
+    color: black
+}
+.vl {
+    margin: 50px ;
+    border-left: 2px solid black;
+    border-style: ridge;
+    height: 200px;
+  }
+.quick-links{
+    margin-top: 50px;
+ 
+    
+}
+.list1, .list2{
+    margin-right: 20px;
+    text-align: left;
+}
+.quick-links a{
+    text-decoration: underline;
+}
+.quick-links a , .subscribe p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.social{
+    border: 2px solid black;
+    border-style: ridge;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding-top: 30px;
+    background-color: white;
+    height: 180px;
+    border-radius: 20px;
+   
+
+}
+
+.footer-bottom{
+    font-size: 10px;
+    height: 50px;
+    text-align:center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
