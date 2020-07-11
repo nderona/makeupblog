@@ -10,14 +10,9 @@
                 <img src="pictures/logo.png" alt="logo.png" />
             <ul class="nav-links">
                 <li><a href="index.php" ><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="#">Reviews</a>
+                <li><a href="reviews.php">Reviews</a>
                 </li>
-            <li><a href="#">Products</a>
-                <ul>
-                    <li><a href="#">Skincare</a></li>
-                    <li><a href="#">Makeup</a></li>
-               </ul>
-            </li>
+           
             <li><a href="contact.php">Contact</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="#"><i class="fas fa-search"></i><input class="input" type="text" name="" placeholder=" type to search...">
@@ -30,3 +25,9 @@
    
 </header>
 
+<!--  <li><a href="#">Products</a>
+                <ul>
+                    <li><a href="#">Skincare</a></li>
+                    <li><a href="#">Makeup</a></li>
+               </ul>
+            </li> -->

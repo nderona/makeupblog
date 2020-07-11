@@ -9,6 +9,11 @@ body {
     background-size: cover;
     color: black;
 }
+.main-container{
+    width: 1340px; 
+    margin: 0 auto;
+    font-size: 1vmax
+}
 
 .container{
     border: 3px solid #b6868e;

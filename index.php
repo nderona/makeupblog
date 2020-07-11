@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
+<div class="main-container">
     <?php
     
     include 'topMenu.php';
@@ -23,8 +24,8 @@
                 </p>
             </div>
             <div class="cta">
-                <button class="cta-select">Get to know us</button>
-                <button class="cta-add">Recent Posts</button>
+                <button class="cta-select" onclick="window.location.href='SignUp.php'">Sign Up</button>
+                <button class="cta-add" onclick="window.location.href='LogIn.php'">Log In</button>
             </div>
         </div>
         <div class="cover">
@@ -37,5 +38,6 @@
     include 'footer.php';
 
 ?>
+</div>
 
 </html>
