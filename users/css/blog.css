@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 1340px; 
+    margin: 0 auto;
+    font-size: 1vmax
+}
+
+.blog{
+    margin-top: 50px;
+    margin-left: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.design1{
+    background-color: white;
+    border: 2px solid black;
+    width: 500px;
+    display: inline-block;
+}
+.title{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+.image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+}
+.image img{
+    margin: 20px;
+    height: 250px;
+    width: 300px;
+}
+.description{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+}
+.description p{
+    font-size: 15px;
+    margin: 20px;
+}
+
+.design2{
+    background-color: white;
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+}
+.part1, .part2{
+    width: 300px;
+}
+.title2 h3{
+    margin: 20px 0px 0px 20px;
+}
+.image2 img{
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+}
+.description2 p{
+    font-size: 15px;
+    margin: 55px 20px;
+}
+
+
+.design3{
+    background-color: white;
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.title3 h3{
+    margin: 20px 0px 0px 20px;
+}
+.image3 img{
+    margin: 20px;
+    height: 300px;
+    width: 460px;
+}
+.description3 p{
+    font-size: 15px;
+    margin: 20px;
+}
