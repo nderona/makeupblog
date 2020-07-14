@@ -21,6 +21,7 @@ body{
 }
 
 .main{
+   
     margin-top: 20px;
     display: flex;
     border-top: 3px solid black ;
@@ -28,16 +29,15 @@ body{
     border-style: ridge;
 }
 
-.logo-container img{
-    float: right; 
-} 
 .links{  
+    width: 600px;
+   
     margin-top: 15px;
     justify-content: center;
     align-items: center; 
 }
 .links ul{
-    float: left;
+    display: flex;
     list-style: none;
 }
 .links ul li{
@@ -45,6 +45,7 @@ body{
     text-align: center;
     font-size: 15px;
     display: inline-block;
+    
 }
 .links ul li a{
     text-decoration: none;
@@ -62,6 +63,7 @@ body{
 }
 .links ul li ul li {
     display: none;
+    
 }
 .links ul li:hover ul li{
     display: block;
@@ -71,12 +73,31 @@ body{
 
     width: 250px;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-right: 40px;
+  
 }
 
 .search input {
     height: 20px;
     width: 210px;
     border-radius: 50px;
+    margin-left: 40px;
 }
 
+
+.logout{  
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center; 
+}
+.logOut {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 111px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 15px 0px 0px 70px;
+    border-radius: 15px;
+}

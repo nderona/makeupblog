@@ -27,7 +27,7 @@ include 'dbconnection.php';
                 $_SESSION['email']=$user['email'];
                 $_SESSION['username']=$user['username'];
 
-                header("location:../users/homePage.php?Welcome");  
+                header("location:../users/blog.php?Welcome");  
             }
             
         }

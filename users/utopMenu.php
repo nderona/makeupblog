@@ -9,8 +9,7 @@
            
             <div class="links">
              <ul>
-                <li><a href="homePage.php"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="blog.php">Blog</a>
+                <li><a href="blog.php"><i class="fas fa-home"></i>Home</a></li>
                 </li>
 
                 <li><a href="#">Products</a>
@@ -19,7 +18,7 @@
                         <li><a href="#">Makeup</a></li>
                     </ul>
                 </li>
-                <li><a href="../reviews.php">Reviews</a>
+                <li><a href="">Testimonials</a>
                 </li>
 
                 <li><a href="contact.php">Contact</a></li>
@@ -32,6 +31,8 @@
             <div class="logo-container"> 
             <img src="../pictures/logo.png" alt="logo.png" />
             </div>
+            <div class="logout"> <button class="logOut" onclick="window.location.href='LogOut.php'">Log Out</button></div>
+           
         </div>
     </div>
 </body>
