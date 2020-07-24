@@ -1,24 +1,55 @@
+<?php
+    include '../db\dbconnection.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/blog.css">
-    <title>BLog</title>
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/Blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="main-container">
-
         <?php
-    
-    include 'utopMenu.php';
-    
-    ?>
+         include 'utopMenu.php';?>
 
-        <div class="blog">
-            <div class="design1">
+    
+        <div class="content">
+
+                <?php
+            
+            
+            $sql="SELECT * FROM blogs ORDER BY ID desc;";
+            $results=$DB->query($sql);
+            
+            while($row=mysqli_fetch_assoc($results)){
+                ?>
+
+                <div class="post">
+                    <div id="title">
+                        <h1><?php echo $row['title'];?></h1>
+                    </div>
+                    <div id="image"><img src="../<?php echo $row['imagepath'];?>" alt=""></div>
+                    <div id="text">
+                        <p><?php echo $row['text'];?> </p>
+                    </div>
+                </div>
+                <?php  } ?>
+            </div>
+  
+
+    </div>
+
+</body>
+
+</html>
+            <!-- <div class="design1">
                 <div class="title">
                     <h3>Lorem, ipsum.</h3>
                 </div>
@@ -58,9 +89,9 @@
                 </div>
             
             </div>
-        </div>
+        </div> 
 
     </div>
 </body>
 
-</html>
+</html>-->
