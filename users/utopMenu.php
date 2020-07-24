@@ -12,13 +12,13 @@
                 <li><a href="blog.php"><i class="fas fa-home"></i>Home</a></li>
                 </li>
 
-                <li><a href="#">Products</a>
+                <li><a href="products.php">Products</a>
                     <ul>
-                        <li><a href="#">Skincare</a></li>
-                        <li><a href="#">Makeup</a></li>
+                        <li><a href="skincare.php">Skincare</a></li>
+                        <li><a href="makeup.php">Makeup</a></li>
                     </ul>
                 </li>
-                <li><a href="">Testimonials</a>
+                <li><a href="testimonials.php">Testimonials</a>
                 </li>
 
                 <li><a href="contact.php">Contact</a></li>

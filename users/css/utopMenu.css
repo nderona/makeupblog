@@ -17,15 +17,12 @@ body{
 .main-container{
     width: 1340px; 
     margin: 0 auto;
-    font-size: 1vmax
+    font-size: 1vmax;
 }
 
 .main{
-   
-    margin-top: 20px;
     display: flex;
-    border-top: 3px solid black ;
-    border-right: 3px solid black ;
+  
     border-style: ridge;
 }
 
@@ -99,5 +96,5 @@ body{
     font-size: 12px;
     color: black;
     margin: 15px 0px 0px 70px;
-    border-radius: 15px;
+    border-radius: 0px;
 }

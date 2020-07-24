@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    color: black;
+    font-weight: lighter;
+}
+
+.content{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content  {
+    
+    margin-top: 44px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content .skincare {
+    float: center;
+margin-right: 33px ;
+}
+
+
+
+.content .makeup {
+    float: center;
+    margin-left: 33px;
+}
+
+
+
+
+
+
+
+
+
+
