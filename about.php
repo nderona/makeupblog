@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About</title>
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
@@ -26,7 +26,7 @@
 
                 <div class="story">
 
-                    <h5>OUR STORY</h5>
+                   
                     <br>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cupiditate corrupti excepturi
                         dolores
@@ -38,12 +38,7 @@
                         non veritatis omnis aliquid labore ab! Quas accusantium odio ipsam eius facilis tenetur maxime
                         assumenda
                         laborum ducimus laboriosam odit ratione quisquam quam debitis, porro inventore voluptatem magni
-                        maiores
-                        dolorum, nostrum sint. Porro molestiae velit architecto repudiandae libero tempora in laboriosam
-                        esse
-                        ratione nulla, dolorum labore facilis perspiciatis dolorem consequatur temporibus necessitatibus
-                        quas
-                        hic sed quibusdam. Aliquid, dolor illum?</p>
+                        </p>
 
                     <h6> FOUNDERS </h6>
 

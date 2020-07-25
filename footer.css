@@ -2,8 +2,8 @@
 /* footer */
 
 footer{
-    background:rgba(182, 134, 142, 0.979);
-    height: 300px;
+    background:rgba(182,134,142,0.979);
+    height: 333px;
     width: auto;  
     display: flex;
     justify-content: center;
@@ -45,30 +45,46 @@ footer{
 .quick-links{
     margin-top: 50px;  
 }
-.list1, .list2{
+.list1{
+    margin-top: 30px;
+    list-style: none;
     margin-right: 20px;
     text-align: left;
 }
-.quick-links a{
-    text-decoration: underline;
+
+.quick-links ul li a{
+   color: black;
+    font-size: 20px;
+    text-decoration: none;
 }
+
+.quick-links ul li a:hover{
+    color: #ecd5d9;
+   
+ }
 .quick-links a , .subscribe p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-size: 18px;
 }
 
-.social{
-    border: 2px solid black;
-    border-style: ridge;
-    margin-top: 50px;
+.social ul li a{
+    
+   color: rgba(182,134,142,0.979);
+   border-width: 2px;
+    
+    margin-top: 80px;
     margin-left: 70px;
-    padding-top: 30px;
-    background-color: white;
-    height: 180px;
+    padding-top: 20px;
+    
+    height: 40px;
     border-radius: 20px;
-   
+}
 
+
+.social ul li {
+    list-style: none;
+    margin-top: 24px;
 }
 
 .footer-bottom{

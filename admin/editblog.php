@@ -55,4 +55,9 @@
     </div>
 </body>
 
+<?php
+    
+    include 'afooter.php';
+    
+    ?>
 </html>

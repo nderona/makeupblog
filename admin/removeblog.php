@@ -13,5 +13,11 @@
     
     ?>
 </div>
+<?php
+    
+    include 'afooter.php';
+    
+    ?>
 </body>
+
 </html>

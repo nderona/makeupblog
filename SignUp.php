@@ -1,38 +1,50 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-    <link rel="stylesheet" href="css/SignUp.css">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/SignUpp.css">
+    <script defer src="registervalidation.js"></script>
 </head>
+
 <body>
-    <div class="main-container">
-    <?php
-    
-    include 'topMenu.php';
 
-    ?>
-    <div class="container">
-        <form action="db/SignUpdb.php" method="POST">
-            <label for="name">Name: </label>  <br>
-            <input type="text" id="name" placeholder="Your Name" name="name"> <br>
-            <label for="Surname">Surname: </label> <br>
-            <input type="text" id="surname" placeholder="Your Surname" name="surname"> <br>
-            <label for="email">Email: </label> <br>
-            <input type="email" id="email" placeholder="Your Email" name="email"><br>
-            <label for="username">Username: </label> <br>
-            <input type="text" id="username" placeholder="Your Username" name="username"><br>
-            <label for="password">Password: </label> <br>
-            <input type="password" id="password" name="password" placeholder="Your Password" name="password"><br>
-            <input type="submit" id="submit" name="submit" value="Sign Up">
-        </form>
-    </div>
-    <?php
-    
-    include 'footer.php';
+        
+<?php
+include 'topmenu.php'; 
+?>
 
-    ?>
-    </div>
+
+<div class="title">
+    <p> <br>
+    SIGN IN
+    <br>
+</div>
+ 
+<div class="content">
+    <div class="form">
+        <form onsubmit= "return validate()" action="db/SignUpdb.php"  method="POST">
+        <label for="">name: </label><br>
+        <input type="text" name="name" id="name" required ><br>
+        <label for="">surname: </label><br>
+        <input type="text" name="surname" id="surname" required ><br>
+        <label for="">email: </label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="">username: </label><br>
+        <input type="text" name="username" id="username" required><br>
+        <label for="">password: </label><br>
+        <input type="Password" name="password"  id="password" required><br>
+        <input type="Submit" name="Submit" value="Sign Up" id="Submit" required>
+        <li><a href="LogIn.php">Already have an account? Log in</a></li>
+    </form>
+</div>
+</div>
+
+
 </body>
 </html>

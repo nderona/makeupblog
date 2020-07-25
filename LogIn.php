@@ -1,32 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-    <link rel="stylesheet" href="css/SignUp.css">
+    <title>Log In</title>
+    <link rel="stylesheet" href="log.css">
+    <script defer src="loginvalidation.js"></script>
 </head>
-<body>
-    <div class="main-container">
-    <?php
-    
-    include 'topMenu.php';
 
-    ?>
-    <div class="container">
+<body>
+
+<?php
+include 'topmenu.php';
+?>
+
+<div class="containerss">
+    <p> <br>
+    LOG IN
+    <br>
+</div>
+
+
+<div class="content">
         <form action="db/LogIndb.php" method="POST">
-            <label for="username">Username: </label> <br>
+            <label for="username">username: </label> <br>
             <input type="text" id="username" placeholder="Your Username" name="username"><br>
-            <label for="password">Password: </label> <br>
+            <label for="password">password: </label> <br>
             <input type="password" id="password" name="password" placeholder="Your Password" name="password"><br>
             <input type="submit" id="submit" value="Log In" name="submit">
+            <li><a href="SignUp.php">Dont have an account? Create one</a></li>
         </form>
     </div>
-    <?php
-    
-    include 'footer.php';
 
-    ?>
-    </div>
+
+
+
+
+]
+
+
 </body>
 </html>

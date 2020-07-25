@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>NM Makeup</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css\index.css">
 </head>
 <body>
 <div class="main-container">
@@ -20,7 +20,8 @@
             <div class="intro-text">
                 <h1><b>Welcome.</b></h1>
                 <p><i> Everything you need to know about
-                    the beauty world & trends. Makeup reviews, tutorials, beauty tips & so much more.</i>
+                    the beauty world & trends. Makeup reviews, tutorials, beauty tips & so much more.
+                <br><b>Log in or sign in to get started</b></br> </i>
                 </p>
             </div>
             <div class="cta">
