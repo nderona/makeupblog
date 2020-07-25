@@ -10,8 +10,9 @@
 }
 
 h2, p{
+    margin-top: 20px;
     text-align:center;
-    color: #5F9768;
+    color:  black;
   }
 .content{
   
@@ -37,9 +38,9 @@ h2, p{
 }
 
 #submit {
-    background-color: #5F9768;
+    background-color:  rgba(182, 134, 142, 0.979);
     border-radius: 1px;
-    color: #cecece;
+    color: black;
     width: 100px;
     padding: 12px 20px;
     cursor: pointer;
@@ -50,7 +51,7 @@ h2, p{
 }
 
 label{
-      color: #ffffff ;
+      color: black ;
 }
 
 
@@ -69,13 +70,13 @@ label{
 body{
     margin: 0;
     padding: 0;
-    background-color:#86CF86;
+    background-color: rgba(182, 134, 142, 0.979);
 
 }
 
 .nav ul{
     list-style: none;
-    background-color: #5F9768;
+    background-color: rgba(182, 134, 142, 0.979);
     text-align: center;
     padding: 0;
     margin: 0;

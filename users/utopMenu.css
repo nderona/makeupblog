@@ -71,8 +71,8 @@ body{
 
 .links ul li a:hover{
     background-color:#ecd5d9;
-    opacity: 40%;
-
+    opacity: 100%;
+color: black;
 }
 
 
@@ -136,4 +136,3 @@ body{
     margin: 6px 0px 0px 60px;
     border-radius: 1px;
 }
-
