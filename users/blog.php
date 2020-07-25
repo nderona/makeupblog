@@ -1,5 +1,5 @@
 <?php
-    include '../db\dbconnection.php';
+    include '../db/dbconnection.php';
 
 ?>
 
@@ -30,17 +30,22 @@
             
             while($row=mysqli_fetch_assoc($results)){
                 ?>
-
-                <div class="post">
-                    <div id="title">
+                <div class="blog<?php echo $row['design']?>">
+                <div class="design<?php echo $row['design']?>" >
+                    <div id="title<?php echo $row['design']?>">
                         <h1><?php echo $row['title'];?></h1>
                     </div>
-                    <div id="image"><img src="../<?php echo $row['imagepath'];?>" alt=""></div>
-                    <div id="text">
+                    <div id="image<?php echo $row['design']?>"><img class="image<?php echo $row['design']?>" src="../<?php echo $row['imagepath'];?>" alt=""></div>
+                    <div id="text<?php echo $row['design']?>">
                         <p><?php echo $row['text'];?> </p>
                     </div>
+                    <div id="product_link<?php echo $row['design']?>">
+                        <p><?php echo $row['product_link'];?> </p>
+                    </div>
+                    <button id="button<?php echo $row['design']?>">read more</button>
                 </div>
                 <?php  } ?>
+                </div>
             </div>
   
 
@@ -49,49 +54,5 @@
 </body>
 
 </html>
-            <!-- <div class="design1">
-                <div class="title">
-                    <h3>Lorem, ipsum.</h3>
-                </div>
-                <div class="image"><img src="../pictures/look1.jpg" alt=""></div>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio error nam nulla quis
-                        harum, asperiores facere reprehenderit exercitationem quo deserunt, laborum ipsam dolore quae
-                        praesentium! Similique error rerum harum!</p>
-                </div>
-            </div>
 
-            <div class="design2">
-                <div class="part1">          
-                <div class="title2"><h3>Lorem, ipsum.</h3></div>
-                <div class="image2"><img src="../pictures/look2.jpg" alt=""></div></div>
-
-                <div class="part2">
-                <div class="description2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio error nam nulla quis
-                        harum, asperiores facere reprehenderit exercitationem quo deserunt, laborum ipsam dolore quae
-                        praesentium! Similique error rerum harum!</p>
-                </div>
-                </div>
-            
-            </div>
-            <div class="design3">
-                <div class="part1-3">          
-                <div class="image3"><img src="../pictures/look3.jpg" alt=""></div></div>
-
-                <div class="part2-3">
-                <div class="title3"><h3>Lorem, ipsum.</h3></div>
-                <div class="description3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio error nam nulla quis
-                        harum, asperiores facere reprehenderit exercitationem quo deserunt, laborum ipsam dolore quae
-                        praesentium! Similique error rerum harum!</p>
-                </div>
-                </div>
-            
-            </div>
-        </div> 
-
-    </div>
-</body>
-
-</html>-->
+        

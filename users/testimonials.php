@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Testimonials</title>
-  <link rel="stylesheet" href="testimonials.css">
+  <link rel="stylesheet" href="css/testimonials.css">
   <script defer src="testimonials.js"></script>
 
 </head>

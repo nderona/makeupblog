@@ -1,5 +1,5 @@
 <?php 
-    include '../db\dbconnection.php';
+    include '../db/dbconnection.php';
 
 
     if(isset($_POST['remove'])){
@@ -11,19 +11,20 @@
         $product_link = $_POST['product_link'];
     
         $imagepath = $_FILES['imagepath'] ['name'];
-        $filetmpname = $_FILES['imagepath']['tmp_name'];
-    
         $finaldestination = 'pictures/'.$imagepath;
     
-        
+        if(empty($imagepath)){
+            $finaldestination = $_POST['oldimagepath'];
+        }
 
-            $sql="UPDATE blogs SET title ='$title', imagepath = '$finaldestination', text = '$text' ,design='$design', product_link ='$product_link' WHERE ID = $ID;";
-            $DB->query($sql);
+        $sql="UPDATE blogs SET title ='$title', imagepath = '$finaldestination', text = '$text' ,design=$design, product_link ='$product_link' WHERE ID = $ID;";
+        $DB->query($sql);
 
-            header('Location:editBlog.php');
+        header('Location:editBlog.php?super');
         
 
     }else{
         header('Location:editBlog.php?error');
     }
     
+?>

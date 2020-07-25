@@ -31,19 +31,20 @@
         while($row=mysqli_fetch_assoc($results)){
         ?>
 
-            <div class="post">
+            <div class="blog">
             <form action="editBlogdb.php" method="POST" enctype="multipart/form-data">
-            <label for="file">TITLE: </label> <br>
+            <label for="">TITLE: </label> <br>
             <input type="text" name="title" id="title" value="<?php echo $row['title'] ?>"><br>
-            <label for="file">IMAGE: </label> <br>
+            <label for="">IMAGE: </label> <br>
             <input type="file" id="imagepath" name="imagepath"> <br>
-            <img id="image" src="<?php echo $row['imagepath']?>" alt="<?php echo $row['imagepath']?>"><br>
-         
+            <img id="image" src="<?php echo $row['imagepath']?>" alt=""><br>
+            <input type="text" value="<?php echo $row['imagepath'] ?>" style="display: none;" name="oldimagepath">
+            <input type="number" value="<?php echo $row['ID'] ?>" style="display: none;" name="ID">
             <label for="">DESCRIPTION: </label> <br>
             <textarea name="text" id="text" cols="30" rows="10"> <?php echo $row['text'] ?></textarea><br>
-            <label for="file">Design: </label> <br>
-            <input type="number" name="design" id="design" value="<?php echo $row['design'] ?>"><br>
-            <label for="file">Product linl: </label> <br>
+            <label for="">Design: </label> <br>
+            <input type="number" name="design" class="design<?php echo $row['design'] ?>" value="<?php echo $row['design'] ?>"><br>
+            <label for="">Product link: </label> <br>
             <input type="text" name="product_link" id="product_link" value="<?php echo $row['product_link'] ?>"><br>
 
             <input type="submit" name="remove" id="remove" value="Save">

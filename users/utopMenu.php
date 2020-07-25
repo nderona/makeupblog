@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="utopMenu.css">
+    <link rel="stylesheet" href="css/utopMenu.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
@@ -22,7 +22,7 @@
                 </li>
 
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="reviews.php">Profile</a>
+                <li><a href="profile.php">Profile</a>
                 </li>
             </div>
             <div class="search">

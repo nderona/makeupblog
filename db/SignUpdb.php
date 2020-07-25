@@ -29,8 +29,9 @@ if(isset($_POST['submit'])){
         header("location:../SignUp.php?InvalidForm");
     }
     else{
-        $DB = new database();
-        $DB->insertUser($name,$surname,$email,$username,$hashedpassword);
+        $sql ="INSERT INTO users (name,surname,email,username,password) values('$name','$surname','$email','$username', '$hashedpassword');";
+        $DB->query($sql);
+        header("location:../index.php");
     }
 
 }else{

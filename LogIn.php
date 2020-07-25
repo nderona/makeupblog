@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
     <link rel="stylesheet" href="log.css">
-    <script defer src="loginvalidation.js"></script>
+    <script defer src="js/LogInvalidation.js"></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@ include 'topmenu.php';
 
 
 <div class="content">
-        <form action="db/LogIndb.php" method="POST">
+<form onsubmit="return validate()" action="db/LogIndb.php" id="form" method="POST">
             <label for="username">username: </label> <br>
             <input type="text" id="username" placeholder="Your Username" name="username"><br>
             <label for="password">password: </label> <br>

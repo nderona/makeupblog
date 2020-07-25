@@ -1,6 +1,11 @@
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Menu</title>
+    <link rel="stylesheet" href="css/atopMenu.css">
+
     <link rel="stylesheet" href="css/adtopMenu.css">
+
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 

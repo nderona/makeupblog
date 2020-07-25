@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
 
     if(move_uploaded_file($filetmpname, $finaldestination)){
 
-        $sql="INSERT INTO blogs (title,imagepath,text,design,product_link) values ('$title', '$finaldestination', '$text','$design','$product_link');";
+        $sql="INSERT INTO blogs (title,imagepath,text,design,product_link) values ('$title', '$finaldestination', '$text',$design,'$product_link');";
         $DB->query($sql);
 
         header('Location:addblog.php');
