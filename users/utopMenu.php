@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="css/utopMenu.css">
+    <link rel="stylesheet" href="utopMenu.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
@@ -29,7 +29,7 @@
                 <input type="text" id="search" placeholder=" Search..." name="search">
             </div>
             <div class="logo-container"> 
-            <img src="../pictures/logo.png" alt="logo.png" />
+            <img src="../pictures/reverselogoblack.png" alt="logo.png" />
             </div>
             <div class="logout"> <button class="logOut" onclick="window.location.href='LogOut.php'">Log Out</button></div>
            

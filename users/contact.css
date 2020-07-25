@@ -1,10 +1,11 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 
   }
 .container{
-    width: 1340px; 
+
     margin: 1 ;
     font-size: 1vmax;
 }

@@ -10,13 +10,14 @@
 </head>
 
 <body>
+            
+  <?php
+            include 'utopmenu.php';
+        
+ ?>
     <div class="main-container">
 
-        <?php
-    
-    include 'utopMenu.php';
-
-    ?>
+  
 
         <div class="container">
             <div class="title">
