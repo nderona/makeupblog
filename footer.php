@@ -9,10 +9,10 @@
 <footer>
     <div class="footer-content">
         <div class="subscribe">
-            <form action="">
+            <form action="savesubscribers.php" method="POST">
                 <p>Subscribe to our newsletter</p>
-                <input type="text" id="email" placeholder="  Please enter your email"> <br>
-                <button type="button">Submit</button>
+                <input name="email" type="text" id="email" placeholder="  Please enter your email"> <br>
+                <input id="submit" type="submit" name="submit" value="Submit" >
             </form>
 
         </div>

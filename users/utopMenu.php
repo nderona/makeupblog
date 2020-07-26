@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="css/utopMenu.css">
+    <link rel="stylesheet" href="utopMenu.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
@@ -26,8 +26,16 @@
                 </li>
             </div>
             <div class="search">
-                <input type="text" id="search" placeholder=" Search..." name="search">
+                <form action="displaysearch.php" method="POST" id="form">
+                <input type="text" id="search" placeholder=" Search..." name="search" style="border-radius:15px; ">
+                <div id='button'>
+                <button name="submit" id="searchbttn" style="background-color:transparent; border:none; margin:0px 30px;"><img src='../pictures/search.png' /></button>
+                </div>
+            </form>
             </div>
+                
+            
+          
             <div class="logo-container"> 
             <img src="../pictures/reverselogoblack.png" alt="logo.png" />
             </div>

@@ -21,9 +21,6 @@
                 <li><a href="removeblog.php">Remove Blog</a></li>
                 <li><a href="removeuser.php">Remove User</a></li>
             </div>
-            <div class="search">
-                <input type="text" id="search" placeholder=" Search..." name="search">
-            </div>
             <div class="logo-container"> 
             <img src="../pictures/reverselogoblack.png" alt="logo.png" />
             </div>

@@ -8,9 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
-button {
-	font-family: 'Poppins', sans-serif;
-}
+
 
 body{
    
@@ -103,22 +101,14 @@ color: black;
 }
 
 .search{
-
     width: 250px;
     margin-top: 30px;
     margin-right: 40px;
   
 }
-
-.search input {
-    height: 20px;
-    width: 210px;
-    border-radius: 50px;
-    margin-left: 40px;
+#form{
+    display: flex;
 }
-
-
-
 
 .logout{  
     margin-top: 15px;
