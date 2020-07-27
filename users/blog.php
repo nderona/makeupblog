@@ -37,12 +37,12 @@
                     </div>
                     <div id="image<?php echo $row['design']?>"><img class="image<?php echo $row['design']?>" src="../<?php echo $row['imagepath'];?>" alt=""></div>
                     <div id="text<?php echo $row['design']?>">
-                        <p><?php echo $row['text'];?> </p>
+                        <p><?php echo $row['shorttext'];?> </p>
                     </div>
                     <div id="product_link<?php echo $row['design']?>">
-                        <p><?php echo $row['product_link'];?> </p>
+                        <a href="<?php echo $row['product_link'];?> ">link</a>
                     </div>
-                    <button id="button<?php echo $row['design']?>">read more</button>
+                    <button id="button<?php echo $row['design']?>"><a href="blogmore.php?ID=<?php echo $row['ID']?>">read more</a></button>
                 </div>
                 <?php  } ?>
                 </div>

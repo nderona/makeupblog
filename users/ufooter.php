@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="ufooter.css">
+    <link rel="stylesheet" href="css/ufooter.css">
 </head>
 
 <body>

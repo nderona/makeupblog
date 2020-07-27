@@ -20,6 +20,8 @@
             <input type="text" id="title" name="title" required>
             <label for="">Image: </label> <br>
             <input type="file" id="imagepath" name="imagepath" required>
+            <label for="">SHORT DESCRIPTION: </label> <br>
+            <textarea  id="text" name="shorttext" cols="30" rows="10" required></textarea>
             <label for="">DESCRIPTION: </label> <br>
             <textarea  id="text" name="text" cols="30" rows="10" required></textarea>
             <label for="">DESIGN: </label> <br>

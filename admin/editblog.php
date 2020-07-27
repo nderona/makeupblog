@@ -40,6 +40,8 @@
             <img id="image" src="<?php echo $row['imagepath']?>" alt=""><br>
             <input type="text" value="<?php echo $row['imagepath'] ?>" style="display: none;" name="oldimagepath">
             <input type="number" value="<?php echo $row['ID'] ?>" style="display: none;" name="ID">
+            <label for="">SHORT DESCRIPTION: </label> <br>
+            <textarea name="shorttext" id="text" cols="30" rows="10"> <?php echo $row['shorttext'] ?></textarea><br>
             <label for="">DESCRIPTION: </label> <br>
             <textarea name="text" id="text" cols="30" rows="10"> <?php echo $row['text'] ?></textarea><br>
             <label for="">Design: </label> <br>
