@@ -8,8 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/removeblog.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/removeblogs.css">
+    <title>Remove Blog</title>
 </head>
 
 <body>
@@ -19,6 +19,12 @@
     include 'atopMenu.php';
     
     ?>
+     <div class="container">
+            <div class="title">
+                <h1> Remove Blog</h1> 
+                
+            </div>
+        </div>
 
     <div class="content">
 
@@ -53,6 +59,11 @@
             <?php  } ?>
         </div>
     </div>
+    <?php
+    
+    include 'afooter.php';
+    
+    ?>
 </body>
 
 </html>

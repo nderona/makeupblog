@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="../users/css/Blog.css">
+    <link rel="stylesheet" href="../users/css/blog.css">
 </head>
 
 <body>
@@ -52,7 +52,11 @@
 
 
     </div>
-
+    <?php
+    
+    include 'afooter.php';
+    
+    ?>
 </body>
 
 </html>

@@ -4,8 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/removeUser.css">
-   <title>Remove Users</title>
+   <link rel="stylesheet" href="css/subscribers.css">
+   <title>Document</title>
 </head>
 
 <body>
@@ -16,9 +16,10 @@
    include 'atopMenu.php';
 
    ?>
-   <div class="container">
+   
+<div class="container">
             <div class="title">
-                <h1> Remove Users</h1> 
+                <h1> Subscribers</h1> 
                 
             </div>
         </div>
@@ -29,11 +30,8 @@
          <table border="1">
             <thead>
                <tr>
-                  <th>Name</th>
-                  <th>Surname</th>
+                  <th>ID</th>
                   <th>Email</th>
-                  <th>Username</th>
-                  <th>Remove</th>
                </tr>
             </thead>
 
@@ -41,7 +39,7 @@
                <?php
             include '../db/dbconnection.php';
 
-            $sql = "SELECT * FROM users;";
+            $sql = "SELECT * FROM subscribers;";
             $result = $DB->query($sql);
 
             while($row = mysqli_fetch_assoc($result)){
@@ -49,11 +47,9 @@
 
 
                <tr>
-                  <td><?php echo $row['name']?></td>
-                  <td><?php echo $row['surname']?></td>
+                  <td><?php echo $row['ID']?></td>
                   <td><?php echo $row['email']?></td>
-                  <td><?php echo $row['username']?></td>
-                  <td><a href="removeUserdb.php?ID=<?php echo $row['ID']?>">Remove</a></td>
+                 
                </tr>
 
 
@@ -66,6 +62,11 @@
          </table>
       </div>
 
+   </div>
+
+   
+   <div class="button">
+   <button  onclick="location.href='messages.php'" type="button">Check your messages</button>
    </div>
    <?php
     

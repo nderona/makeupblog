@@ -19,6 +19,13 @@
                 <li><a href="editblog.php">Edit Blog</a></li>
                 <li><a href="removeblog.php">Remove Blog</a></li>
                 <li><a href="removeuser.php">Remove User</a></li>
+                <li><a href="more.php">More...</a>
+                    <ul>
+                        <li><a href="subscribers.php">Subscribers</a></li>
+                        <li><a href="messages.php">Messages</a></li>
+                    </ul>
+                </li>
+                
             </div>
             <div class="logo-container"> 
             <img src="../pictures/adminlogo.png" alt="logo.png" />

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/addblog.css">
+    <link rel="stylesheet" href="css/addblogs.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,6 +13,12 @@
     include 'atopMenu.php';
     
     ?>
+     <div class="container">
+            <div class="title">
+                <h1> Add Blog</h1> 
+                
+            </div>
+        </div>
         <div class="content">
             
             <form action="addblogdb.php" method="POST" enctype="multipart/form-data">

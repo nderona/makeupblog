@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="css/afooter.css">
+    <link rel="stylesheet" href="css/adfooter.css">
 </head>
 
 <body>

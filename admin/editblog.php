@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/removeblog.css">
+    <link rel="stylesheet" href="css/removeblogs.css">
     <title>Document</title>
 </head>
 
@@ -19,7 +19,12 @@
     include 'atopMenu.php';
     
     ?>
-
+ <div class="container">
+            <div class="title">
+                <h1> Edit Blog</h1> 
+                
+            </div>
+        </div>
     <div class="content">
 
     <?php

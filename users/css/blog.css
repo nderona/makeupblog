@@ -16,22 +16,30 @@
 }
 
 .blog{
-    margin: 30px 0px;
+    margin: 40px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .design1{
-    background-color: white;
-    border: 2px solid black;
-    width: 600px;
+    background-color: #ecd5d9;
+    border: 4px solid rgba(182, 134, 142, 0.979);
+    width: 800px;
     display: flex;
     flex-direction: column;
 }
 
-h1{
-    margin: 10px 20px;
+h1{ width: 100%;
+    text-align: center;
+    text-decoration: black;
+    margin-top:15px;
+    color:rgba(182,134,142,0.979);
+    letter-spacing: .3em;
+    font-size:2.7vw;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 p{
     font-size: 15px;
@@ -46,8 +54,11 @@ p{
     cursor: pointer;
     font-size: 12px;
     color: black;
-    margin: 10px ;
-    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px ;
+    border-radius: 1px;
+    align-items: center;
 }
 
 
@@ -78,23 +89,27 @@ p{
 }
 .links #product_link2 a{
     color: rgba(109, 71, 77, 0.979);
-    font-size: 25px;
+    font-size: 20px;
     text-decoration:black;
     font-weight: 600;
-  
+   text-align: center;
 }
 #button1 a, #button2 a{
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
+
+
 #product_link1{
     margin: 20px;
 }
 #product_link1 a{
     color: rgba(109, 71, 77, 0.979);
-    font-size: 25px;
+    font-size: 20px;
     text-decoration:black;
     font-weight: 600;
+    text-align: center;
+    margin-left: 200px;
 }
 

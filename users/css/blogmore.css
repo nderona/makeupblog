@@ -1,7 +1,7 @@
 .center{
 
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
     }
     
     .more{
@@ -19,13 +19,17 @@
         margin: 10px 0px; 
     }
     
+    
+    
     #img{
+        align-items: center;
         height: 300px;
         width: 450px;
     }
     #a{
         color: rgba(109, 71, 77, 0.979);
-        font-size: 25px;
+        font-size: 15px;
         text-decoration:black;
         font-weight: 600;
+        text-align: center;
     }
