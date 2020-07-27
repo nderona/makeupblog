@@ -32,15 +32,15 @@
      
         <div class="form">
           
-          <form>
-          <form onsubmit=" return validatecontact()" id="form" >
+      
+          <form action="db/contactdb.php" id="form" method="POST">
             <label for="fname">name</label>
             <input type="text" id="fname" name="firstname" placeholder="your first name">
             <label for="lname">email</label>
-            <input type="text" id="lname" name="lastname" placeholder="your email">
+            <input type="text" id="lname" name="email" placeholder="your email">
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Submit" id="submit" name="submit">
           </form>
 
         </div>

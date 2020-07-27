@@ -15,14 +15,14 @@
     align-items: center;
 }
 
-.blog1, .blog2{
+.blog{
     margin: 30px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.design1,  .design3{
+.design1{
     background-color: white;
     border: 2px solid black;
     width: 600px;
@@ -38,7 +38,7 @@ p{
     margin: 20px;
     font-family: sans-serif;
 }
-#button1{
+#button1, #button2{
     text-align: center;
     background: rgba(182, 134, 142, 0.979);
     width: 111px;
@@ -49,23 +49,20 @@ p{
     margin: 10px ;
     border-radius: 15px;
 }
-#button2{
-    
-    background: rgba(182, 134, 142, 0.979);
 
-}
 
-.image1 ,  .image3{
+.image1{
     height: 400px;
-    width: 550px;;
+    width: 550px;
     margin: 20px;
 }
 
 .design2{
     background-color: white;
     border: 2px solid black;
-    width: 850px;
+    width: 890px;
     display: flex;
+  
     margin-bottom: 20px;
 }
 .image2{
@@ -74,5 +71,30 @@ p{
     margin: 20px;
 }
 
-
+.links #product_link2 {
+    display: flex;
+    margin: 50px 20px;
+    justify-content: center;
+}
+.links #product_link2 a{
+    color: rgba(109, 71, 77, 0.979);
+    font-size: 25px;
+    text-decoration:black;
+    font-weight: 600;
+  
+}
+#button1 a, #button2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+#product_link1{
+    margin: 20px;
+}
+#product_link1 a{
+    color: rgba(109, 71, 77, 0.979);
+    font-size: 25px;
+    text-decoration:black;
+    font-weight: 600;
+}
 
