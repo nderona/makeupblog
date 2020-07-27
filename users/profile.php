@@ -30,7 +30,7 @@ Session_start();
                     <form action="changeinfo.php" method="POST" onsubmit= "return validate()">
 
                         <div class="input">
-                        <label for="">Username: <?php echo $_SESSION['username']; ?> </label> <br>
+                        <label for="" id="username">Username:<br> <?php echo $_SESSION['username']; ?> </label> <br>
                         <label for="">Name: </label>
                         <input type="text" name="name" id="name" value="<?php echo $_SESSION['name']; ?>"> 
                         <label for="">Surname: </label>
