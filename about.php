@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="css\about.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
 <body>
 
     <div class="main-container">
+        
         <?php
-    
         include 'topMenu.php';
-    
-    ?>
+        ?>
+
         <div class="container">
 
             <div class="content">
@@ -25,8 +25,6 @@
                 <h1>About Us</h1>
 
                 <div class="story">
-
-                   
                     <br>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cupiditate corrupti excepturi
                         dolores
@@ -43,20 +41,18 @@
                     <h6> FOUNDERS </h6>
 
                     <div class="founders">
-                        <img id="founder" src="pictures/mu.jpg" alt="">
-                        <img id="founder" src="pictures/mu2.jpg" alt="">
+                        <img id="founder" src="pictures/mu.jpg" alt="founder1">
+                        <img id="founder" src="pictures/mu2.jpg" alt="founder2">
                     </div>
-
-
                 </div>
             </div>
         </div>
+        
+        <?php
+        include 'footer.php';
+        ?>
 
-    
-    <?php
-    
-    include 'footer.php';
-    
-    ?>
     </div>
+
 </body>
+</html>

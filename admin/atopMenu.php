@@ -2,9 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Menu</title>
-    <link rel="stylesheet" href="css/atopMenu.css">
+    <link rel="stylesheet" href="css\adtopMenu.css">
 
-    <link rel="stylesheet" href="css/adtopMenu.css">
 
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
@@ -22,7 +21,7 @@
                 <li><a href="removeuser.php">Remove User</a></li>
             </div>
             <div class="logo-container"> 
-            <img src="../pictures/reverselogoblack.png" alt="logo.png" />
+            <img src="../pictures/adminlogo.png" alt="logo.png" />
             </div>
             <div class="logout"> <button class="logOut" onclick="window.location.href='LogOut.php'">Log Out</button></div>
            
