@@ -33,10 +33,10 @@
         <div class="vl"></div>
         <div class="social">
             <ul>
-                <li><a href=""><img src="pictures/instagram.png" alt="" width="40px" height="40px"></a></li>
-                <li><a href=""><img src="pictures/facebook.png" alt="" width="40px" height="40px alt=""></a></li>
-                <li><a href=""><img src=" pictures/twitter.png" alt="" width="40px" height="40px" alt=""></a></li>
-                <li><a href=""><img src="pictures/youtube.png" alt="" width="40px" height="40px" alt=""></a></li><br>
+                <li><a href="https://www.instagram.com"><img src="pictures/instagram.png" alt="" width="40px" height="40px"></a></li>
+                <li><a href="https://www.facebook.com"><img src="pictures/facebook.png" alt="" width="40px" height="40px alt=""></a></li>
+                <li><a href="https://www.twitter.com"><img src=" pictures/twitter.png" alt="" width="40px" height="40px" alt=""></a></li>
+                <li><a href="https://www.youtube.com"><img src="pictures/youtube.png" alt="" width="40px" height="40px" alt=""></a></li><br>
                
 
             </ul>

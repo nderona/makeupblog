@@ -1,0 +1,24 @@
+.form{
+    margin-top: 170px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.form li {
+    background-color: rgb(182,134,142,0.979);
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.form li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
