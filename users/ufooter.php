@@ -16,7 +16,7 @@
 </div>
 
     <div class="footer-bottom">
-        <p id="p1">Designed by: Marigona Kadriu and Nderona Kamberi</p>
+        <p id="p1">Designed by: Marigona Kadriu, Nderona Kamberi & Armir Syla</p>
     </div>
 </div>
 
