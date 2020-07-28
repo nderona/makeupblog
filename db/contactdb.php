@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
 
         $sql = "INSERT INTO contact (name,email,subject) VALUES ('$firstname','$email','$subject');";
         $DB->query($sql);
-        header("location:../index.php");
+        header("location:../thankyoucontact.php");
     }
 
 

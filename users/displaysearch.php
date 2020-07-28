@@ -43,9 +43,7 @@
                         <p><?php echo $row['shorttext'];?> </p>
                     </div> 
                     <div class="links">
-                    <div id="product_link<?php echo $row['design']?>">
-                        <a target="_blank" href="<?php echo $row['product_link'];?> ">Buy Product</a>
-                    </div>
+                   
                     <button id="button<?php echo $row['design']?>"><a
                             href="blogmore.php?ID=<?php echo $row['ID']?>">read more</a></button> </div>
                 </div>

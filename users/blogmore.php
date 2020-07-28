@@ -33,10 +33,10 @@ include "../db/dbconnection.php";
                 <p id="p"><?php echo $row['text']?></p>
 
                 <a id="a" target="_blank" href="<?php echo $row['product_link']?>">Buy Product</a>
+                <a id="goback" href="blog.php">< Go Back</a>
             </div>
-
-        </div>
-
+            
+        
 
 
     

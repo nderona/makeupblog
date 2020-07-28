@@ -23,7 +23,12 @@ Session_start();
     include 'utopMenu.php';
     
     ?>
-    
+<div class="container">
+            <div class="title">
+                <h1> Change Password</h1> 
+                
+            </div>
+        </div>    
             <div class="content">
                 <div class="form">
                     <form action="changepwdb.php" method="POST" onsubmit= "return validatePw()">
@@ -36,7 +41,11 @@ Session_start();
                     </form>
                 </div>
             </div>
+            <div class="goback">
+        <a href="profile.php">Go Back</a>
     </div>
+    </div>
+    
 </body>
 
 </html>

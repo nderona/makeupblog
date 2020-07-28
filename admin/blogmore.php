@@ -26,13 +26,14 @@ include "../db/dbconnection.php";
     ?>
         <div class="center">
             <div class="more">
-                <h1><?php echo $row['title']?></h1>
+                <h1 id="title"><?php echo $row['title']?></h1>
 
                 <img id="img" src="../<?php echo $row['imagepath']?>" alt="image is here">
 
                 <p id="p"><?php echo $row['text']?></p>
 
                 <a id="a" target="_blank" href="<?php echo $row['product_link']?>">Buy Product</a>
+                <a id="goback" href="home.php">< Go Back</a>
             </div>
 
         </div>
