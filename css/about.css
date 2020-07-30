@@ -84,7 +84,7 @@ p{
 
 @media screen and (max-width: 1024px){
     .container{
-        margin-top: 20px;
+        margin: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,5 +112,8 @@ p{
     p{
         text-align: center;
         font-size: 15px;
+    }
+    h6{
+      font-size: 15px;
     }
 }

@@ -119,5 +119,6 @@ input {
 
     .cover img {
         height: 80%;
+        margin: 30px 0px;
     }
 }

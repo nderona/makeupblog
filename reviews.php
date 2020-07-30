@@ -24,7 +24,7 @@
                 
             </div>
             <div class="content">
-                <div class="reviews">
+              
                     <div class="review">
                         <div class="head-review">
                             <img src="pictures/profile.jpg" width="250px" alt="">
@@ -48,8 +48,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="reviews">
+             
+             
                     <div class="review">
                         <div class="head-review">
                             <img src="pictures/profile.jpg" width="250px" alt="">
@@ -73,8 +73,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="reviews">
+               
+                
                     <div class="review">
                         <div class="head-review">
                             <img src="pictures/profile.jpg" width="250px" alt="">
@@ -101,13 +101,14 @@
                 </div>
             </div>
         </div>
-        <?php
+    
+
+    </div>
+    <?php
     
     include 'footer.php';
 
     ?>
-
-    </div>
 </body>
 
 </html>

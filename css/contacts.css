@@ -82,17 +82,14 @@ h2, p{
     padding: 12px 20px;
     cursor: pointer;
 }
-#submit:hover {
-    background: linear-gradient(rgb(136, 134, 134),rgb(95, 93, 93),rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
-    background: linear-gradient(to center, black);
-}
+
 
 label{
       color: black ;
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 600px){
 
 
     .content{
