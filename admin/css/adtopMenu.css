@@ -136,25 +136,3 @@ color: black;
     margin: 6px 0px 0px 60px;
     border-radius: 1px;
 }
-
-@media screen and (max-width: 1024px){
-    .main-container{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-        display: flex;
-    }
-    .main{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-        display: flex;
-    }
-    .links{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-        display: flex;
-    }
-    }
-}

@@ -68,23 +68,3 @@ margin-top: 10px;
     margin-bottom: 30px;
 
 }
-@media screen and (max-width: 1024px){
-.main-container{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
-    .container{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
-    .content{
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
-   /* BUTTON E NDREQ TE CHECK MESSAGES NE SUBSCRIBERS EDHE MESSAGES*/
-
-
-}

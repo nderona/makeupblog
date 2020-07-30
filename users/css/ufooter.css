@@ -1,14 +1,11 @@
 
-footer{
-    margin-bottom: 0px;
-}
+
 .footer-bottom #p1 {
     color: black;
     font-size: 9px;
     margin-top: 15px;
     float: left;
     margin-left: 555px;
-    margin-bottom: 0px;
 }
 
 
@@ -42,7 +39,7 @@ footer{
         }
     #footer-menu {
         background:rgb(182,134,142,0.979);
-        height: 70px;
+        height: 40px;
         display: block;
         margin-top: 111px;
     }

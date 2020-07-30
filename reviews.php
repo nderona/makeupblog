@@ -40,11 +40,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="desc-review">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
+                              <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
                                 veniam, et
                                 magnam eius amet quia nihil perspiciatis qui illum aut excepturi aperiam officiis.
                                 Similique
-                                esse unde incidunt.
+                                esse unde incidunt.</p>
                             </div>
                         </div>
                     </div>
@@ -65,11 +65,11 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="desc-review">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
                                 veniam, et
                                 magnam eius amet quia nihil perspiciatis qui illum aut excepturi aperiam officiis.
                                 Similique
-                                esse unde incidunt.
+                                esse unde incidunt.</p>
                             </div>
                         </div>
                     </div>
@@ -90,11 +90,11 @@
                                 <i class="fas fa-star-half"></i>
                             </div>
                             <div class="desc-review">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
+                             <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi eligendi nesciunt
                                 veniam, et
                                 magnam eius amet quia nihil perspiciatis qui illum aut excepturi aperiam officiis.
                                 Similique
-                                esse unde incidunt.
+                                esse unde incidunt.</p>
                             </div>
                         </div>
                     </div>

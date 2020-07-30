@@ -3,56 +3,6 @@
     padding: 0px;
 
   }
-.container{
-    width: 1340px; 
-    margin: 1 ;
-    font-size: 1vmax;
-}
-
-h2, p{
-    margin-top: 20px;
-    text-align:center;
-    color:  black;
-  }
-.content{
-  
-    display: flex;
-    margin: 50px;
-    overflow: hidden;
-}
-
-.map{
-   margin-top: 33px;
-    margin-left: 30px;
-}
-.form{
-    margin-right: 30px;
-}
-#fname, #lname, select, textarea {
-    width: 100%;
-    padding: 12px;
-    background-color: #f2f3f4;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-#submit {
-    background-color:  rgba(182, 134, 142, 0.979);
-    border-radius: 1px;
-    color: black;
-    width: 100px;
-    padding: 12px 20px;
-    cursor: pointer;
-}
-#submit:hover {
-    background: linear-gradient(rgb(136, 134, 134),rgb(95, 93, 93),rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
-    background: linear-gradient(to center, black);
-}
-
-label{
-      color: black ;
-}
 
 
 body{
@@ -68,8 +18,7 @@ body{
     text-align: center;
     padding: 0;
     margin: 0;
-   
-        border-bottom: 5px solid #000000;
+    border-bottom: 5px solid #000000;
 }
 
 
@@ -97,21 +46,88 @@ body{
     border-bottom: 5px solid black;
 }
 
-@media screen and (max-width: 1024px){
-    .container{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .content {
-        flex-direction: column;
-        height: auto;
-    }
-
-   .form{
-    flex-direction: column;
-    height: auto;
-    text-align: center;
+h2, p{
+    margin-top: 20px;
+    text-align:center;
+    color:  black;
+  }
+.content{
+  
     display: flex;
-   }
+    margin: 50px;
+    overflow: hidden;
 }
+
+.map{
+   margin-top: 33px;
+    margin-left: 30px;
+}
+.form{
+    margin-right: 30px;
+}
+#fname, #lname, select, textarea {
+    width: 650px;
+    padding: 12px;
+    background-color: #f2f3f4;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#submit {
+    background-color:  rgba(182, 134, 142, 0.979);
+    border-radius: 1px;
+    color: black;
+    width: 100px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+#submit:hover {
+    background: linear-gradient(rgb(136, 134, 134),rgb(95, 93, 93),rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
+    background: linear-gradient(to center, black);
+}
+
+label{
+      color: black ;
+}
+
+
+@media screen and (max-width: 1024px){
+
+
+    .content{
+  
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        overflow: hidden;
+    }
+
+   
+   
+    #fname, #lname, select, textarea {
+     width: 400px;
+     padding: 12px;
+     background-color: #f2f3f4;
+     margin-top: 6px;
+     margin-bottom: 16px;
+ 
+     }
+    label{
+        font-size: 15px;
+        text-align: left;
+        margin: 5px;
+    }
+    p{
+        font-size: 15px;
+        text-align: left;
+        margin-left: 60px; 
+    }
+    .map{
+        display: none;
+    }
+     .content{
+  
+       width: auto;
+    }
+ }

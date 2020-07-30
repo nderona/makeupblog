@@ -4,30 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/products.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <title>More...</title>
+    <title>Document</title>
 </head>
 
 <body>
             
   <?php
-            include 'atopmenu.php';
+            include 'utopmenu.php';
         
  ?>
-  <div class="container">
-            <div class="title">
-               
-                
-            </div>
-        </div>
     <div class="main-container">
 
   
 
         <div class="container">
             <div class="title">
-                <h1> Want to see your subscribers or messages? Click on the category you want</h1> 
+                <h1> Want to shop the products we use? Click the category you are interested in</h1> 
                 
             </div>
 
@@ -35,21 +29,21 @@
             
             <div class="content">
                 <div class="skincare">
-                    <a href="subscribers.php">
-                        <img src="../pictures/subscribers.png" title="insert title" width="333px" alt="insert description here"></a>
+                    <a href="skincare.php">
+                        <img src="../pictures/skincare2.png" title="insert title" width="333px" alt="insert description here"></a>
                                
                     </div>
                    
                 <div class="makeup">
-                    <a href="messages.php">
-                        <img src="../pictures/messages.png" title="insert title" width="333px" alt="insert description here"></a>
+                    <a href="makeup.php">
+                        <img src="../pictures/makeup2.png" title="insert title" width="333px" alt="insert description here"></a>
                       
                     </div>
                     
             </div>
             <?php
     
-    include 'afooter.php';
+    include 'ufooter.php';
     
     ?>
 

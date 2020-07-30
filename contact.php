@@ -34,12 +34,12 @@
           
       
           <form action="db/contactdb.php" id="form" method="POST">
-            <label for="fname">name</label>
-            <input type="text" id="fname" name="firstname" placeholder="your first name">
-            <label for="lname">email</label>
-            <input type="text" id="lname" name="email" placeholder="your email">
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <label for="fname">name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="your first name"> <br>
+            <label for="lname">email</label><br>
+            <input type="text" id="lname" name="email" placeholder="your email"><br>
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
             <input type="submit" value="Submit" id="submit" name="submit">
           </form>
 

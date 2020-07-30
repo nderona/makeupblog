@@ -107,23 +107,27 @@ footer{
         background:rgba(182,134,142,0.979);
     }
     .social ul li{
-        margin-right: 100px;
+       display: inline;
      
     }
     .social ul li a{
-        margin right: : 100px;
+        margin:20px;
         height: auto;
         
 
     }
-    .list1 {
-        margin-top: 100px;
-        height: auto;
-
+    .list1 li a{
+        display: none
     }
     footer{
         height: auto;
     }
+    .vl {
+        display: none;
+      
+    }
+   
+
 }
 @media screen and (max-width: 414px){
     .footer-content{
@@ -138,7 +142,7 @@ footer{
      
     }
     .social ul li a{
-        margin right: : 100px;
+        margin-right:  100px;
         height: auto;
         
 
@@ -152,5 +156,4 @@ footer{
         height: auto;
     }
 }
-
 

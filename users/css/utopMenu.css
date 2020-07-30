@@ -8,9 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
-button {
-	font-family: 'Poppins', sans-serif;
-}
+
 
 body{
    
@@ -18,15 +16,18 @@ body{
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    
+    
 }
 .main-container{
  
+    margin: 0 auto;
     font-size: 1vmax;
     
 }
 
 .main{
-    background-color: #ecd5d9;
+    background-color: rgba(182, 134, 142, 0.979);
     display: flex;
     padding: 0;
     border-bottom: 1.5px solid #000000;
@@ -34,22 +35,18 @@ body{
 
 
 .links{  
-    width: 888px;
-  height: 20px;
-    margin-top: 11px;
-    
+    width: 600px;
+   
+    margin-top: 15px;
     justify-content: center;
     align-items: center; 
     
 }
 .links ul{
-   
     display: flex;
     list-style: none;
 }
 .links ul li{
-    width: 400px;
-    height: 50px;
     list-style: none;
     text-align: center;
     font-size: 15px;
@@ -70,21 +67,64 @@ body{
 
 
 
+.links ul li a:hover{
+    background-color:#ecd5d9;
+    opacity: 100%;
+color: black;
+}
 
 
 .links ul li  {
     position: relative;
   display: inline-block;
-
 }
+
+.links ul li ul li {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+
  
-.links ul li:hover{
-    background-color: rgb(182,134,142,0.979);
+.links ul li ul li a{
     color: black;
-  
+  padding: 12px 16px;
   text-decoration: none;
   display: inline-block;
   
+}
+
+.links ul li:hover ul li{
+    display: inline-block;
+ 
+}
+
+.search{
+    width: 250px;
+    margin-top: 30px;
+    margin-right: 40px;
+  
+}
+#form{
+    display: flex;
+}
+
+.logout{  
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center; 
+}
+.logOut {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 6px 0px 0px 60px;
+    border-radius: 1px;
 }
 
 .hamburger{
@@ -117,6 +157,10 @@ body{
         display: none;  
     }
   
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
 
     .links{  
 
@@ -154,6 +198,10 @@ body{
         display: flex;
         padding: 0;
         border-bottom: 1.5px solid #ecd5d9;
+    }
+    .search{
+      margin-left: 30px;
+      
     }
     
    

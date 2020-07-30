@@ -81,3 +81,36 @@ p{
     height: 250px;
     width: 250px;
 }
+
+@media screen and (max-width: 1024px){
+    .container{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .story{
+        margin-top: 40px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-color: #b6868e;
+        height: auto;
+        width: auto;
+        
+        padding: 5px; 
+        margin-bottom: 55px;
+    }
+    #founder{
+    
+        margin: 30px;
+        height: 150px;
+        width: 150px;
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+    }
+}
