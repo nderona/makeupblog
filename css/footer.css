@@ -97,3 +97,60 @@ footer{
     padding-top: 20px;
     width: 100%;
 }
+
+@media screen and (max-width: 1024px){
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        background:rgba(182,134,142,0.979);
+    }
+    .social ul li{
+        margin-right: 100px;
+     
+    }
+    .social ul li a{
+        margin right: : 100px;
+        height: auto;
+        
+
+    }
+    .list1 {
+        margin-top: 100px;
+        height: auto;
+
+    }
+    footer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 414px){
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        background:rgba(182,134,142,0.979);
+    }
+    .social ul li{
+        margin-right: 100px;
+     
+    }
+    .social ul li a{
+        margin right: : 100px;
+        height: auto;
+        
+
+    }
+    .list1 {
+        margin-top: 100px;
+        height: auto;
+
+    }
+    footer{
+        height: auto;
+    }
+}
+
+

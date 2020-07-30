@@ -78,3 +78,22 @@ body{
     letter-spacing: 1px;
     color: rgb(150, 150, 150);
 }
+
+@media screen and (max-width: 1024px){
+    .main-container{
+        flex-direction: column;
+        height: auto;
+    }
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .content {
+        flex-direction: column;
+        height: auto;
+    }
+    .reviews {
+        flex-direction: column;
+        height: auto;
+    }
+}

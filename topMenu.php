@@ -18,12 +18,11 @@
                 </li>
 
                 <li><a href="about.php">About</a></li>
-            </div>
+            </div> 
             <div class="logo-container"> 
             <img src="pictures\logo.png" alt="logo.png" />
             </div>
             
-           
-        </div>
+           </div>
     </div>
 </body>

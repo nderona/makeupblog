@@ -32,6 +32,9 @@ body{
     border-bottom: 1.5px solid #000000;
 }
 
+.logo-container {
+    display: flex;
+}
 
 .links{  
     width: 888px;
@@ -88,5 +91,35 @@ body{
 }
 
 
+@media screen and (max-width: 1024px){
+     .main {
+        
+       flex-direction: column;
+        height: auto;
+        display: flex;
+       
+    }
+    .logo-container{
+        margin-left: 100px;
+        display: flex;
+    }
+    .links {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        display: flex; 
+      
+    }
+    .links ul {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        display: flex;
+   
+        
+    }
 
+    
+    
+}
 

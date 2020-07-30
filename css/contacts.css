@@ -55,18 +55,6 @@ label{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 body{
     margin: 0;
     padding: 0;
@@ -107,4 +95,23 @@ body{
     background: linear-gradient(to center, black);
     transition: 0.2s;
     border-bottom: 5px solid black;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+        height: auto;
+    }
+
+   .form{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    display: flex;
+   }
 }

@@ -3,6 +3,7 @@
 </head>
 
 <body>
+	
 <div id="footer-menu">
 <ul>
 <li><a href="home.php">Home</a></li>
@@ -16,7 +17,7 @@
 </div>
 
     <div class="footer-bottom">
-        <p id="p1">Designed by: Marigona Kadriu and Nderona Kamberi</p>
+        <p id="p1">Designed by: Marigona Kadriu & Nderona Kamberi and Armir Syla</p>
     </div>
 </div>
 
