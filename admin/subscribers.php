@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/subscribers.css">
+   <link rel="stylesheet" href="css/removeuser.css">
    <title>Document</title>
 </head>
 
@@ -16,13 +16,13 @@
    include 'atopMenu.php';
 
    ?>
-   
-<div class="container">
-            <div class="title">
-                <h1> Subscribers</h1> 
-                
-            </div>
-        </div>
+
+      <div class="container">
+         <div class="title">
+            <h1> Subscribers</h1>
+
+         </div>
+      </div>
       <div class="content">
 
 
@@ -49,7 +49,7 @@
                <tr>
                   <td><?php echo $row['ID']?></td>
                   <td><?php echo $row['email']?></td>
-                 
+
                </tr>
 
 
@@ -60,14 +60,15 @@
 
             </tbody>
          </table>
+         <div class="button">
+      <button id="button" onclick="location.href='messages.php'" type="button">Check your messages</button>
+      </div>
       </div>
 
    </div>
 
-   
-   <div class="button">
-   <button  onclick="location.href='messages.php'" type="button">Check your messages</button>
-   </div>
+
+
    <?php
     
     include 'afooter.php';

@@ -9,16 +9,13 @@
    text-align: center;
    margin-top:15px;
    color:rgba(182,134,142,0.979);
-  
    letter-spacing: .3em;
    font-size:2.0vw;
-   font-weight: normal;
-   
+   font-weight: normal;  
    text-transform: uppercase;
    
 }
-.main-container{
-   
+.main-container{ 
     margin: 0 auto;
     font-size: 1vmax;
   
@@ -91,4 +88,34 @@ input[type="file"]{
 label{
     font-size: 15px;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px){
+    #title, #text, #product_link, input[type="number"] ,textarea{
+        display: flex;
+        flex-direction: column; 
+        width: 250px;
+        padding: 8px;
+        background-color: white;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 1px;
+        border: 1px solid black;
+    }
+    input[type="file"]{
+        display: flex;
+        flex-direction: column; 
+        width: 250px;
+        background-color: white;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 1px;
+        border: 1px solid black;
+    }
+    .title{
+        margin-top: 50px;
+    }
+
 }

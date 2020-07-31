@@ -2,7 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Menu</title>
-    <link rel="stylesheet" href="css\adtopMenu.css">
+    <link rel="stylesheet" href="css/adtopMenu.css">
+    <script defer src="../js/hamburger.js"></script>
 
 
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.0/css/all.css">
@@ -13,6 +14,7 @@
         <div class="main">
            
             <div class="links">
+            <div class="none">
              <ul>
                 <li><a href="home.php"><i class="fas fa-home"></i>Home</a></li></li>
                 <li><a href="addblog.php">Add Blog</a></li>
@@ -24,7 +26,12 @@
                         <li><a href="subscribers.php">Subscribers</a></li>
                         <li><a href="messages.php">Messages</a></li>
                     </ul>
-                </li>
+                    </li>
+            </div>
+            <div class="hamburger">
+                <button class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i> </button>
+                </div>
                 
             </div>
             <div class="logo-container"> 

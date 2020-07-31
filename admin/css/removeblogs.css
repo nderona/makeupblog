@@ -9,16 +9,13 @@
    text-align: center;
    margin-top:15px;
    color:rgba(182,134,142,0.979);
-  
    letter-spacing: .3em;
    font-size:2.0vw;
    font-weight: normal;
-   
    text-transform: uppercase;
    
 }
 .main-container{
-   
     margin: 0 auto;
     font-size: 1vmax;
   
@@ -87,4 +84,46 @@ label{
 #remove:hover{
     background-color: #ecd5d9;
     
+}
+
+@media only screen and (max-width: 1024px){
+    .blog{
+        padding: 10px;
+        border: 1px solid rgb(202, 202, 202);
+        height:auto;
+        width: 400px;
+        background-color: white;
+    }
+    #title{
+        text-align: left;
+        height: 30px;
+        width: 380px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    #text{
+        text-align: left;
+        height: 130px;
+        width: 380px;
+        padding: 10px;
+    }
+    #text p{
+        color: black;
+        font-size: 13px;
+    }
+    #file{
+        margin-bottom: 30px;
+        padding: 10px;
+        height:10px;
+        width: 350px;
+    }
+    #image{
+        height: 250px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    label{
+        font-weight: 700;
+    }
 }

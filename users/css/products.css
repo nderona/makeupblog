@@ -16,35 +16,28 @@
 }
 
 .content{
-  
+    margin-top: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-
-.content  {
-    
-    margin-top: 44px;
-    
-    display: flex;
-    flex-direction: row;
+#img{
+    margin: 30px;
 }
 
-
-.content .skincare {
-    float: center;
-margin-right: 33px ;
+@media only screen and (max-width: 1024px){
+    .content{
+  
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: lighter;
+    }
 }
-
-
-
-.content .makeup {
-    float: center;
-    margin-left: 33px;
-}
-
-
 
 
 

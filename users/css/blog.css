@@ -32,16 +32,12 @@
 }
 
 h1{
-        width: 100%;
-       text-align: center;
-       color:rgba(182,134,142,0.979);
-      
-      
-       font-size:2.0vw;
-       font-weight: bolder;
-       
-       text-transform: uppercase;
-      
+    width: 80%;
+    text-align: center;
+    color:rgba(182,134,142,0.979);
+    font-size:2.0vw;
+    font-weight: bolder;
+    text-transform: uppercase;
     margin: 20px 10px -20px;
 }
 p{
@@ -99,6 +95,7 @@ p{
     margin-top: 300px;
   
 }
+
 
 @media only screen and (max-width: 1024px){
     .design1{

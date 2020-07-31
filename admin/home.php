@@ -48,13 +48,10 @@
             </div>
         </div>
 
+        
 
     </div>
-    <?php
-    
-    include 'afooter.php';
-    
-    ?>
+  
 </body>
 
 </html>

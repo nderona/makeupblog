@@ -18,22 +18,17 @@ h2, p{
 .content{
   
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 50px;
     overflow: hidden;
 }
 
-.map{
-   margin-top: 33px;
-    margin-left: 30px;
-}
-.form{
-    margin-right: 30px;
-}
-#fname, #lname, select, textarea {
-    width: 100%;
+ #subject {
+    width: 500px;
     padding: 12px;
     background-color: #f2f3f4;
-    margin-top: 6px;
+    margin-top: 30px;
     margin-bottom: 16px;
     resize: vertical;
 }
@@ -52,20 +47,14 @@ h2, p{
 }
 
 label{
-      color: black ;
+   text-align: center;
+   margin-top:15px;
+   color:black;
+   letter-spacing: .3em;
+   font-size:20px;
+   text-transform: uppercase;
+ 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 body{
@@ -109,3 +98,36 @@ body{
     transition: 0.2s;
     border-bottom: 5px solid black;
 }
+@media screen and (max-width: 600px){
+
+
+   
+   
+   #subject {
+     width: 400px;
+     padding: 12px;
+     background-color: #f2f3f4;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     margin-left: 30px;
+ 
+     }
+     label{
+        text-align: center;
+        margin-top:15px;
+        color:black;
+        letter-spacing: .3em;
+        font-size:10px;
+        text-transform: uppercase;
+        margin-left: 30px;
+    }
+    #submit {
+        background-color:  rgba(182, 134, 142, 0.979);
+        border-radius: 1px;
+        color: black;
+        width: 100px;
+        padding: 12px 15px;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+ }

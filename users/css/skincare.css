@@ -1,59 +1,40 @@
-
-
 .title{
-    width: 100%;
+   width: 100%;
    text-align: center;
    margin-top:15px;
    color:rgba(182,134,142,0.979);
-  
    letter-spacing: .3em;
    font-size:2.0vw;
-   font-weight: normal;
-   
-   text-transform: uppercase;
-   
+   font-weight: normal; 
+   text-transform: uppercase;  
 }
 
-footer .gallery h1 {
+
+section .gallery h1 {
     margin-left: 10px;
     font-size: 42px;
     text-align: center;
 }
 
-footer .gallery p {
-    color: #646060;
-    padding-left: 30px;
-    
-}
-
-footer .gallery button {
-    
-    border-radius: 0px;
-    background-color: rgb(182,134,142,0.979);
-    height: 30px;
-    width: 140px;
-    color: white;
-margin-top: 10px;
-    margin-right: 600px;
-    margin-left: 600px;
-    margin-bottom: 30px;
-
-}
-
-footer .square-container {
+section .square-container {
     margin-top: 15px;
     margin-right: 200px;
     margin-left: 140px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-footer .square-container .side-part {
+section .square-container .side-part {
     display: flex;
+    height: 100%;
+    filter: drop-shadow(3px 3px 3px rgb(182,134,142,0.979));
 }
 
 
-footer .square-container .side-part .square {
+section .square-container .side-part .square {
     height: 200px;
     width: 200px;
     background-color: rgb(71, 71, 71);
@@ -62,9 +43,38 @@ footer .square-container .side-part .square {
     margin-bottom: 20px;
 }
 
-footer .square-container .side-part{
-    height: 100%;
-    filter: drop-shadow(3px 3px 3px rgb(182,134,142,0.979));
-    
+#sbutton{
+    background-color: rgb(182,134,142,0.979);
+    height: 30px;
+    width: 140px;
+    color: white;
+    margin-top: 20px;
 }
 
+@media only screen and (max-width: 1024px){
+    section .square-container .side-part {
+        flex-direction: column;
+        margin-top: 15px;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    section .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section .square-container .side-part .square {
+        height: 200px;
+        width: 200px;
+        margin: 8px;
+     
+    }
+
+    a{
+        width:200px;
+    }
+}

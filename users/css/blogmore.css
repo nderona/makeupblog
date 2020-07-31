@@ -45,3 +45,26 @@
     #goback:hover{
         color: rgba(182, 134, 142, 0.979);
     }
+
+    @media only screen and (max-width: 1024px){
+        
+        #img{
+           
+            height: 200px;
+            width: 250px;
+        }
+        #a{
+            color: rgba(109, 71, 77, 0.979);
+            font-size: 15px;
+            text-decoration:black;
+            font-weight: 600;
+            text-align: center;
+        }
+        .center{
+
+            margin: 0 auto;
+            width: 500px;
+            }
+    
+      
+    }
