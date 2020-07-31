@@ -28,6 +28,8 @@
             $results=$DB->query($sql);
             
             while($row=mysqli_fetch_assoc($results)){
+                //metoda perdoret n'loop edhe t'kthen rreshtat n'results per sa kohe qe ka hala
+                //shembull heren e pare ta kthen rreshtin e pare(prej add blogit qa i kena jap), heren e dyte rishkruhet me tjetren
                 ?>
             <div class="blog">
                 <div class="design<?php echo $row['design']?>">

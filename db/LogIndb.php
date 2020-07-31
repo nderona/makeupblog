@@ -23,6 +23,7 @@ require "dbconnection.php";
                 if ($number == 1) {
                     $row = mysqli_fetch_array($results);
                     // $row llogaritet sikur celes per me verifiku password-in e dhene me ate te ruajtur ne db
+                    //password verify verifikon se passwordi i dhene a perdoret si celes per hashed passwordin
                     if (password_verify("$password", $row['password'])) {
 
                         //krijimi nje sesioni dhe marrja nga databaza qe te identifikohet current loged in user

@@ -12,8 +12,8 @@ if(isset($_POST['submit'])){
     $design = $_POST['design'];
     $product_link = $_POST['product_link'];
 
-    $imagepath = $_FILES['imagepath'] ['name'];
-    $filetmpname = $_FILES['imagepath']['tmp_name'];
+    $imagepath = $_FILES['imagepath'] ['name']; //emrin e file prej qatij pathi
+    $filetmpname = $_FILES['imagepath']['tmp_name']; //vendodhja momentale
 
     $finaldestination = 'pictures/'.$imagepath;
 
