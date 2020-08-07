@@ -11,7 +11,7 @@
         <div class="subscribe">
             <form action="savesubscribers.php" method="POST">
                 <p>Subscribe to our newsletter</p>
-                <input name="email" type="text" id="email" placeholder="  Please enter your email"> <br>
+                <input name="email" type="text" id="email" placeholder="  Please enter your email" required> <br>
                 <input id="submit" type="submit" name="submit" value="Submit" >
             </form>
 

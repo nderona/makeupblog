@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" href="css/contacts.css">
-  <script defer src="contactvalidation.js"></script>
+  <script defer src="js/contactvalidation.js"></script>
 
 </head>
 
@@ -33,14 +33,14 @@
         <div class="form">
           
       
-          <form action="db/contactdb.php" id="form" method="POST">
+          <form onsubmit= "return validate()" action="db/contactdb.php" id="form" method="POST">
             <label for="fname">name</label><br>
             <input type="text" id="fname" name="firstname" placeholder="your first name"> <br>
             <label for="lname">email</label><br>
-            <input type="text" id="lname" name="email" placeholder="your email"><br>
+            <input type="text" id="emailc" name="email" placeholder="your email"><br>
             <label for="subject">Subject</label><br>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
-            <input type="submit" value="Submit" id="submit" name="submit">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea><br>
+            <input type="submit" value="Submit" id="submitc" name="submit">
           </form>
 
         </div>

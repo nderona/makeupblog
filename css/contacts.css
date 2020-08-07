@@ -65,7 +65,7 @@ h2, p{
 .form{
     margin-right: 30px;
 }
-#fname, #lname, select, textarea {
+#fname, #emailc, textarea {
     width: 650px;
     padding: 12px;
     background-color: #f2f3f4;
@@ -74,7 +74,7 @@ h2, p{
     resize: vertical;
 }
 
-#submit {
+#submitc {
     background-color:  rgba(182, 134, 142, 0.979);
     border-radius: 1px;
     color: black;
@@ -102,7 +102,7 @@ label{
 
    
    
-    #fname, #lname, select, textarea {
+    #fname, #emailc, textarea {
      width: 400px;
      padding: 12px;
      background-color: #f2f3f4;
