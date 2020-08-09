@@ -21,7 +21,8 @@
                 <li><a href="editblog.php">Edit Blog</a></li>
                 <li><a href="removeblog.php">Remove Blog</a></li>
                 <li><a href="removeuser.php">Remove User</a></li>
-                <li><a href="more.php">More...</a>
+                <li><a href="atestimonials.php">Testimonials</a></li>
+                <li id="more"><a href="more.php">More...</a>
                     <ul>
                         <li><a href="subscribers.php">Subscribers</a></li>
                         <li><a href="messages.php">Messages</a></li>

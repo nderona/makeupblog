@@ -174,7 +174,7 @@ color: black;
     .links{  
 
         height: 20px;
-        margin: 11px 0px;
+   
         justify-content: center;
         align-items: center; 
         
@@ -184,11 +184,11 @@ color: black;
         list-style: none;
     }
     .links ul li{
-        width: 75px;
+        width: auto;
         height: 30px;
         list-style: none;
         text-align: center;
-        font-size: 15px;
+        font-size: 10px;
         display: inline-block;
         
     }
@@ -196,10 +196,16 @@ color: black;
         text-decoration: none;
         color: black;
         display: block;
-        margin: 5px;
+      
         border: 1px solid transparent;
         transition: 0.4s ease-in;
  
+    }
+    .links ul li ul li a{
+      color: black;
+      padding: 5px;
+      
+      
     }
     .main{
         background-color: #ecd5d9;
@@ -211,6 +217,8 @@ color: black;
       margin-left: 30px;
       
     }
-    
+    #more{
+        display: none;
+    }
    
 }
